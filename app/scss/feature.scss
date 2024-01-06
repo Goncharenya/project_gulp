@@ -1,0 +1,47 @@
+@import "var";
+
+.feature {
+    background: $darkGrey;
+}
+
+.feature__block {
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1280px) {
+    .feature__block {
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+.feature__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+@media (max-width: 1280px) {
+    .feature__item {
+        padding: 20px 0;
+        &:last-child {
+            padding-bottom: 60px;
+        }
+        &:first-child {
+            padding-top: 60px;
+        }
+    }
+}
+
+.feature__description {
+    text-align: center;
+    color: #FBFBFB;
+    font-weight: 100;
+}

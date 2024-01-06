@@ -1,0 +1,74 @@
+@import "var";
+
+.favorites__block {
+   padding: 95px 0;
+}
+
+.favorites__item {
+    display: flex;
+    position: relative;
+    box-shadow: 5px 5px 25px #eee;
+    margin: 1rem 0;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: url("../img/src/plus.svg") no-repeat;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+}
+
+.favorites__picture {
+    img {
+        width: 262px;
+        height: auto;
+    }
+}
+
+.favorites__name, {
+    font-size: 24px;
+    font-weight: 100;
+    color: #222;
+}
+
+.favorites__info {
+    font-weight: 100;
+    color: #222;
+    padding-left: 30px;
+
+    span {
+        font-size: 22px;
+    }
+}
+
+.favorites__price span{
+    &:last-child{
+        color: $pink;
+    }
+}
+
+.favorites__quantity {
+    input {
+        border: 1px solid $lightGrey-input;
+        width: 44px;
+        height: 24px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px){
+    .favorites__item {
+        flex-direction: column;
+    }
+    .favorites__picture img {
+        width: 100%;
+    }
+    .favorites__info {
+        padding-bottom: 1rem;
+    }
+}

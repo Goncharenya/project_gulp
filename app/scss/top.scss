@@ -1,0 +1,22 @@
+@import "var.scss";
+.top {
+    height: 75px;
+    background: $darkGrey;
+}
+
+.top-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-block__item {
+    display: flex;
+    align-items: center;
+
+}
+
+.top-block__right {
+    position: relative;
+    justify-content: flex-end;
+   
+}

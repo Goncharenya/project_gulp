@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,101 +10,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.min.css">
-    <link rel="stylesheet" href="/css/normalize.css">
 </head>
 <body>
+
+
 <div class="top">
-    <div class="top-block">
-        <div class="top-container wrap">
-            <div class="top-block__left">
-                <a href="#"><img src="img/logo.png" alt="logo"></a>
+    <div class="top-block wrap">
+
+        <div class="top-block__item top-block__left">
+            <div class="top-block__logo">
+                <a href="#">
+                    <img src="img/src/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="search-box">
                 <label for="search">
-                    <img src="img/search.svg" alt="">
+                    <img src="img/src/search.svg" alt="">
                 </label>
                 <input id="search" type="text">
             </div>
-            <details>
-                <summary>Go</summary>
-                    <div>
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor officiis repellat sapiente sit. Alias animi asperiores commodi consequatur expedita inventore molestiae possimus provident quasi, rerum. Id non sint vitae.</li>
-                        </ul>
-                    </div>
-<!--            <div class="top-block__right">-->
-<!--                <div class="menu-top__line">-->
-<!--                    <nav class="menu-top">-->
-<!--                        <ul class="menu list _active">-->
-<!--                            <li class="menu__item"><a href="catalog-man.html" class="menu__link">man</a>-->
-<!--                                <ul class="menu-sub list">-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Accessories</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Bags</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Denim</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">T-Shirts</a></li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                            <li class="menu__item"><a href="catalog-woman.html" class="menu__link">woman</a>-->
-<!--                                <ul class="menu-sub list">-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Accessories</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Jackets & Coats</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Polos</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">T-Shirts</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Shirts</a></li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                            <li class="menu__item"><a href="catalog-kids.html" class="menu__link">kids</a>-->
-<!--                                <ul class="menu-sub list">-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Accessories</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Jackets & Coats</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Polos</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">T-Shirts</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Shirts</a></li>-->
-<!--                                    <li class="menu-sub__item"><a href="#" class="menu-sub__link">Bags</a></li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </nav>-->
-<!--                </div>-->
-<!--                <a class="header__link-site" href="registration.html"><img src="img/reg.svg" alt="reg"></a>-->
-<!--                <a class="header__link-site" href="cart.html"><img src="img/cart.svg" alt="cart"></a>-->
-<!--            </div>-->
-                </summary>
-            </details>
         </div>
-    </div>
-    <header class="header">
-        <div class="slogan">
-            <span>THE BRAND</span>
-            <span>OF LUXERIOUS</span>
-            <span>FASHION</span>
+        <div class="top-block__item top-block__right">
+            <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+            <label for="burger-checkbox" class="burger"></label>
+
+
+            <ul class="menu">
+                <li class=""><a href="#" class="menu__item">MAN</a>
+                    <ul class="menu-sub">
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Accessories</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Bags</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Denim</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">T-Shirts</a></li>
+                    </ul>
+                </li>
+
+                <li class=""><a href="catalog-woman.html" class="menu__item">woman</a>
+                    <ul class="menu-sub">
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Accessories</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Jackets & Coats</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Polos</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">T-Shirts</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Shirts</a></li>
+                    </ul>
+                </li>
+                <li class=""><a href="catalog-kids.html" class="menu__item">kids</a>
+                    <ul class="menu-sub">
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Accessories</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Jackets & Coats</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Polos</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">T-Shirts</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Shirts</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Bags</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <div class="top__icon user-icon">
+                <a class="user-page" href="registration.html">
+                    <img src="img/src/reg.svg" alt="reg">
+                </a>
+            </div>
+            <div class="top__icon">
+                <a class="basket user-basket" href="basket.html">
+                    <img src="img/src/cart.svg" alt="ваша корзина">
+                </a>
+            </div>
+
         </div>
 
-    </header>
+    </div>
 </div>
+</div>
+<header class="header">
+    <div class="wrap">
+        <div class="header__slogan">
+            <div class="slogan">
+                <span class="slogan__item">THe BRAND</span>
+                <div class="slogan__box">
+                    <span class="slogan__item">OF LUXERIOUS</span>
+                    <span class="slogan__item">FASHION</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <main class="main">
     <div class="promo wrap">
         <div class="promo__item">
-            <img src="img/si1.jpg" alt="">
+            <!--            <img src="img/src/si1.jpg" alt="" >-->
+            <div class="promo__text">
+                <p>30% off</p>
+                <p>for women</p>
+            </div>
         </div>
         <div class="promo__item">
-            <img src="img/si2.jpg" alt="">
+            <div class="promo__text">
+                <p>30% off</p>
+                <p>for women</p>
+            </div>
+            <!--            <img src="img/src/si2.jpg" alt="">-->
         </div>
         <div class="promo__item">
-            <img src="img/si3.jpg" alt="">
+            <div class="promo__text">
+                <p>30% off</p>
+                <p>for women</p>
+            </div>
+            <!--            <img src="img/src/si3.jpg" alt="">-->
         </div>
-        <div class="promo__item last-child">
-            <img src="img/sibig.jpg" alt="">
+        <div class="promo__item">
+            <div class="promo__text">
+                <p>30% off</p>
+                <p>for women</p>
+            </div>
+            <!--            <img src="img/src/sibig.jpg" alt="">-->
         </div>
     </div>
 
     <div class="product wrap">
-        <h2 class="product__title">
+        <h2 class="product__title title">
             Featured Items
         </h2>
+        <p class="product__sub-title sub-title">Shop for items based on what we featured in this week</p>
         <div class="product__block">
             <div class="product__item">
                 <div class="product__picture">
-                    <img class="product__img" src="img/product1.jpg" alt="" width="360" height="420">
+                    <img class="product__img" src="img/src/product1.jpg" alt="" width="360" height="420">
                 </div>
                 <div class="product__info">
                     <h4 class="product__name">
@@ -121,7 +154,7 @@
             </div>
             <div class="product__item">
                 <div class="product__picture">
-                    <img class="product__img" src="img/product6.jpg" alt="" width="360" height="420">
+                    <img class="product__img" src="img/src/product6.jpg" alt="" width="360" height="420">
                 </div>
                 <div class="product__info">
                     <h4 class="product__name">
@@ -138,7 +171,7 @@
             </div>
             <div class="product__item">
                 <div class="product__picture">
-                    <img class="product__img" src="img/product2.jpg" alt="" width="142" height="400">
+                    <img class="product__img" src="img/src/product2.jpg" alt="" width="142" height="400">
                 </div>
                 <div class="product__info">
                     <h4 class="product__name">
@@ -155,7 +188,7 @@
             </div>
             <div class="product__item">
                 <div class="product__picture">
-                    <img class="product__img" src="img/product3.jpg" alt="" width="360" height="420">
+                    <img class="product__img" src="img/src/product3.jpg" alt="" width="360" height="420">
                 </div>
                 <div class="product__info">
                     <h4 class="product__name">
@@ -172,7 +205,7 @@
             </div>
             <div class="product__item">
                 <div class="product__picture">
-                    <img class="product__img" src="img/product4.jpg" alt="" width="360" height="420">
+                    <img class="product__img" src="img/src/product4.jpg" alt="" width="360" height="420">
                 </div>
                 <div class="product__info">
                     <h4 class="product__name">
@@ -189,7 +222,7 @@
             </div>
             <div class="product__item">
                 <div class="product__picture">
-                    <img class="product__img" src="img/product5.jpg" alt="" width="360" height="420">
+                    <img class="product__img" src="img/src/product5.jpg" alt="" width="360" height="420">
                 </div>
                 <div class="product__info">
                     <h4 class="product__name">
@@ -212,7 +245,7 @@
         <div class="feature__block wrap">
             <div class="feature__item">
                 <div class="feature__icon">
-                    <img src="img/advantages-img.svg" alt="" width="46" height="32">
+                    <img src="img/src/advantages-img.svg" alt="" width="46" height="32">
                 </div>
                 <p class="feature__name">
                     Free Delivery
@@ -223,7 +256,7 @@
             </div>
             <div class="feature__item">
                 <div class="feature__icon">
-                    <img src="img/gear.svg" alt="" height="40" width="40">
+                    <img src="img/src/gear.svg" alt="" height="40" width="40">
                 </div>
                 <p class="feature__name">
                     Sales & discounts
@@ -234,7 +267,7 @@
             </div>
             <div class="feature__item">
                 <div class="feature__icon">
-                    <img src="img/corona.svg" alt="" height="35" width="48">
+                    <img src="img/src/corona.svg" alt="" height="35" width="48">
                 </div>
                 <p class="feature__name">
                     Free Delivery
@@ -248,9 +281,12 @@
 
     <div class="favorites">
         <div class="favorites__block wrap">
+            <h2 class="favorites__title title">
+                Cart Items
+            </h2>
             <div class="favorites__item">
                 <div class="favorites__picture">
-                    <img src="img/product4.jpg" alt="" width="360" height="420">
+                    <img src="img/src/product4.jpg" alt="" width="360" height="420">
                 </div>
                 <div class="favorites__info">
                     <h4 class="favorites__name product__name">
@@ -269,14 +305,15 @@
                         <span>Xl</span>
                     </div>
                     <div class="favorites__quantity">
-                        <span>Quantity:	</span>
-                        <span>2</span>
+                        <label for="quantity_1">Количество
+                        <input id="quantity_1" type="number">	</input>
+                        </label>
                     </div>
                 </div>
             </div>
             <div class="favorites__item">
                 <div class="favorites__picture">
-                    <img src="img/product4.jpg" alt="" width="360" height="420">
+                    <img src="img/src/product4.jpg" alt="" width="360" height="420">
                 </div>
                 <div class="favorites__info">
                     <h4 class="favorites__name product__name">
@@ -295,8 +332,9 @@
                         <span>Xl</span>
                     </div>
                     <div class="favorites__quantity">
-                        <span>Quantity:	</span>
-                        <span>2</span>
+                        <label for="quantity">Количество
+                            <input id="quantity" type="number">	</input>
+                        </label>
                     </div>
                 </div>
 
@@ -307,7 +345,7 @@
     <div class="subscribe wrap">
         <div class="subscribe__info user">
             <div class="user__photo">
-                <img class="user__pic" src="img/Intersect.png">
+                <img class="user__pic" src="img/src/Intersect.png">
             </div>
             <div class="user__comment">
                 “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
@@ -340,7 +378,7 @@
         <div class="social">
             <ul class="social-list">
                 <li class="social-list__item">
-                    <img src="img/facebook-f-brands%20(3)%201.svg" width="11" height="16">
+                    <img src="img/src/facebook-f-brands%20(3)%201.svg" width="11" height="16">
                 </li>
                 <li class="social-list__item"></li>
                 <li class="social-list__item"></li>
@@ -350,13 +388,8 @@
     </div>
 
 </footer>
-<!--<script>-->
-<!--    alert("hello!")-->
-<!--</script>-->
-<details>
-    <summary></summary>
-</details>
-
+<script src="js/main.min.js">
+</script>
 
 
 </body>
