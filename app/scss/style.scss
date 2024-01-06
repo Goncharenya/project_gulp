@@ -13,6 +13,8 @@
 @import "subscribe";
 @import "footer";
 @import "form";
+@import "social";
+@import "btn";
 
 
 body {
@@ -32,28 +34,10 @@ a {
     padding: 0;
 }
 
-.btn {
-    color: $white;
-    background: $pink;
-    padding: 10px 15px;
-    border: none;
-    display: block;
-}
+
 
 ._active {
     display: flex;
 }
 
 
-.social-list__item {
-    width: 32px;
-    height: 32px;
-    background: $white;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:hover{
-        background: $pink;
-    }
-}

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SVG stack preview | svg-sprite</title>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                color: #666;
+                background: #fafafa;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                line-height: 1.4;
+            }
+
+            header {
+                display: block;
+                padding: 3em 3em 2em;
+                background-color: #fff;
+            }
+
+            header p {
+                margin: 2em 0 0;
+            }
+
+            section {
+                border-top: 1px solid #eee;
+                padding: 2em 3em 0;
+            }
+
+            section ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            section li {
+                display: inline-block;
+                background-color: #fff;
+                position: relative;
+                margin: 0 2em 2em 0;
+                vertical-align: top;
+                border: 1px solid #ccc;
+                padding: 1em 1em 3em;
+                cursor: default;
+            }
+
+            .icon-box {
+                margin: 0;
+                width: 144px;
+                height: 144px;
+                position: relative;
+                background: #ccc url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath fill='%23fff' d='M6 0h6v6H6zM0 6h6v6H0z'/%3E%3C/svg%3E") top left repeat;
+                border: 1px solid #ccc;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            .icon {
+                display: inline-block;
+            }
+
+            h1 {
+                margin-top: 0;
+            }
+
+            h2 {
+                margin: 0;
+                padding: 0;
+                font-size: 1em;
+                font-weight: 400;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                position: absolute;
+                left: 1em;
+                right: 1em;
+                bottom: 1em;
+            }
+
+            footer {
+                display: block;
+                margin: 0;
+                padding: 0 3em 3em;
+            }
+
+            footer p {
+                margin: 0;
+                font-size: .7em;
+            }
+
+            footer a {
+                color: #0f7595;
+                margin-left: 0;
+            }
+        </style>
+
+<!--
+Sprite shape dimensions
+====================================================================================================
+You will need to set the sprite shape dimensions via CSS when you use them as stack SVGs, otherwise
+they would become a huge 100% in size. You may use the following dimension classes for doing so.
+They might well be outsourced to an external stylesheet of course.
+-->
+
+<style>
+ .svg-1-dims { width: 414px; height: 415px; }
+ .svg-advantages-img-dims { width: 46px; height: 32px; }
+ .svg-cart-dims { width: 32px; height: 29px; }
+ .svg-corona-dims { width: 48px; height: 35px; }
+ .svg-facebook-f-brands_(3)_1-dims { width: 11px; height: 16px; }
+ .svg-gear-dims { width: 40px; height: 40px; }
+ .svg-instagram-brands_1-dims { width: 16px; height: 17px; }
+ .svg-instagram-brands_1_(1)-dims { width: 16px; height: 17px; }
+ .svg-logo-dims { width: 44px; height: 38px; }
+ .svg-logo_4-dims { width: 295px; height: 59px; }
+ .svg-menu-dims { width: 32px; height: 23px; }
+ .svg-menu_burger-dims { width: 32px; height: 23px; }
+ .svg-pinterest-p-brands_1-dims { width: 13px; height: 16px; }
+ .svg-plus-dims { width: 18px; height: 18px; }
+ .svg-reg-dims { width: 29px; height: 29px; }
+ .svg-search-dims { width: 27px; height: 28px; }
+ .svg-twitt-dims { width: 17px; height: 14px; }
+</style>
+
+<!--
+====================================================================================================
+-->
+
+    </head>
+    <body>
+        <header>
+            <h1>SVG stack preview</h1>
+            <p>This preview features an SVG stack. Please have a look at the HTML source for further details and be aware of the following constraints:</p>
+            <ul>
+                <li>Your browser has to <a href="https://caniuse.com/svg-fragment" target="_blank" rel="noopener noreferrer">support SVG fragment identifiers</a> for SVG stacks to work.</li>
+                <li>Support for SVG fragment identifiers hasn't always been that decent. For older browsers you will have to use some prolyfill like <a href="https://github.com/preciousforever/SVG-Stacker/blob/master/fixsvgstack.jquery.js" target="_blank" rel="noopener noreferrer">fixsvgstack.jquery.js</a>.</li>
+            </ul>
+        </header>
+        <section>
+
+<!--
+SVG stack
+====================================================================================================
+These SVG images make use of fragment identifiers (IDs) to reference certain portions of the
+external sprite. By default, all shapes inside the sprite are hidden by CSS. The `:target` pseudo
+selector is used to show the very shape that is referenced by the fragment identifier.
+-->
+
+            <ul>
+
+             <li title="1">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#1" class="svg-1-dims" alt="1">
+                    </div>
+                    <h2>1, </h2>
+                </li>
+             <li title="advantages-img">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#advantages-img" class="svg-advantages-img-dims" alt="advantages-img">
+                    </div>
+                    <h2>advantages-img, </h2>
+                </li>
+             <li title="cart">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#cart" class="svg-cart-dims" alt="cart">
+                    </div>
+                    <h2>cart, </h2>
+                </li>
+             <li title="corona">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#corona" class="svg-corona-dims" alt="corona">
+                    </div>
+                    <h2>corona, </h2>
+                </li>
+             <li title="facebook-f-brands_(3)_1">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#facebook-f-brands_(3)_1" class="svg-facebook-f-brands_(3)_1-dims" alt="facebook-f-brands_(3)_1">
+                    </div>
+                    <h2>facebook-f-brands_(3)_1, </h2>
+                </li>
+             <li title="gear">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#gear" class="svg-gear-dims" alt="gear">
+                    </div>
+                    <h2>gear, </h2>
+                </li>
+             <li title="instagram-brands_1">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#instagram-brands_1" class="svg-instagram-brands_1-dims" alt="instagram-brands_1">
+                    </div>
+                    <h2>instagram-brands_1, </h2>
+                </li>
+             <li title="instagram-brands_1_(1)">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#instagram-brands_1_(1)" class="svg-instagram-brands_1_(1)-dims" alt="instagram-brands_1_(1)">
+                    </div>
+                    <h2>instagram-brands_1_(1), </h2>
+                </li>
+             <li title="logo">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#logo" class="svg-logo-dims" alt="logo">
+                    </div>
+                    <h2>logo, </h2>
+                </li>
+             <li title="logo_4">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#logo_4" class="svg-logo_4-dims" alt="logo_4">
+                    </div>
+                    <h2>logo_4, </h2>
+                </li>
+             <li title="menu">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#menu" class="svg-menu-dims" alt="menu">
+                    </div>
+                    <h2>menu, </h2>
+                </li>
+             <li title="menu_burger">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#menu_burger" class="svg-menu_burger-dims" alt="menu_burger">
+                    </div>
+                    <h2>menu_burger, </h2>
+                </li>
+             <li title="pinterest-p-brands_1">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#pinterest-p-brands_1" class="svg-pinterest-p-brands_1-dims" alt="pinterest-p-brands_1">
+                    </div>
+                    <h2>pinterest-p-brands_1, </h2>
+                </li>
+             <li title="plus">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#plus" class="svg-plus-dims" alt="plus">
+                    </div>
+                    <h2>plus, </h2>
+                </li>
+             <li title="reg">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#reg" class="svg-reg-dims" alt="reg">
+                    </div>
+                    <h2>reg, </h2>
+                </li>
+             <li title="search">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#search" class="svg-search-dims" alt="search">
+                    </div>
+                    <h2>search, </h2>
+                </li>
+             <li title="twitt">
+                    <div class="icon-box">
+                        <img src="../sprite.svg#twitt" class="svg-twitt-dims" alt="twitt">
+                    </div>
+                    <h2>twitt, </h2>
+                </li>
+         </ul>
+
+<!--
+====================================================================================================
+-->
+
+        </section>
+        <footer>
+            <p>Generated at Sat, 06 Jan 2024 18:38:52 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+        </footer>
+    </body>
+</html>

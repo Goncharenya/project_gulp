@@ -7,3 +7,9 @@
     text-align: center;
     width: 40%;
 }
+
+@media (max-width: 768px) {
+    .user {
+        width: 80%;
+    }
+}

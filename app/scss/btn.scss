@@ -1,0 +1,17 @@
+@import "var";
+
+.btn {
+    color: $white;
+    background: $pink;
+    padding: 10px 15px;
+    display: block;
+    transition: .3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+        color: $pink;
+        background: $white;
+
+    }
+}

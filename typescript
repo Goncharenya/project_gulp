@@ -3284,3 +3284,91 @@ Details:
 [[90m11:22:30[39m] Starting '[36mstyles[39m'...
 [[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
 [[90m11:22:31[39m] Finished '[36mstyles[39m' after [35m157 ms[39m
+^C
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 11:23:06P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hggit add .[?1l>[?2004l
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 11:23:12P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hggit commit -M m""d"t"h"c"" " " " в"е"р"с"т"к"а"[?1l>[?2004l
+[main 6c21a8c] верстка
+ 11 files changed, 422 insertions(+), 54 deletions(-)
+ create mode 100644 app/img/plus.svg
+ create mode 100644 app/img/src/twitt.svg
+ create mode 100644 app/scss/footer.scss
+ create mode 100644 app/scss/form.scss
+ create mode 100644 app/scss/user.scss
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 11:23:37P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hппше згыр[?1l>[?2004l
+zsh: command not found: пше
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 11:23:43P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hggit push[?1l>[?2004l
+Enumerating objects: 30, done.
+Counting objects:   3% (1/30)Counting objects:   6% (2/30)Counting objects:  10% (3/30)Counting objects:  13% (4/30)Counting objects:  16% (5/30)Counting objects:  20% (6/30)Counting objects:  23% (7/30)Counting objects:  26% (8/30)Counting objects:  30% (9/30)Counting objects:  33% (10/30)Counting objects:  36% (11/30)Counting objects:  40% (12/30)Counting objects:  43% (13/30)Counting objects:  46% (14/30)Counting objects:  50% (15/30)Counting objects:  53% (16/30)Counting objects:  56% (17/30)Counting objects:  60% (18/30)Counting objects:  63% (19/30)Counting objects:  66% (20/30)Counting objects:  70% (21/30)Counting objects:  73% (22/30)Counting objects:  76% (23/30)Counting objects:  80% (24/30)Counting objects:  83% (25/30)Counting objects:  86% (26/30)Counting objects:  90% (27/30)Counting objects:  93% (28/30)Counting objects:  96% (29/30)Counting objects: 100% (30/30)Counting objects: 100% (30/30), done.
+Delta compression using up to 8 threads
+Compressing objects:   5% (1/18)Compressing objects:  11% (2/18)Compressing objects:  16% (3/18)Compressing objects:  22% (4/18)Compressing objects:  27% (5/18)Compressing objects:  33% (6/18)Compressing objects:  38% (7/18)Compressing objects:  44% (8/18)Compressing objects:  50% (9/18)Compressing objects:  55% (10/18)Compressing objects:  61% (11/18)Compressing objects:  66% (12/18)Compressing objects:  72% (13/18)Compressing objects:  77% (14/18)Compressing objects:  83% (15/18)Compressing objects:  88% (16/18)Compressing objects:  94% (17/18)Compressing objects: 100% (18/18)Compressing objects: 100% (18/18), done.
+Writing objects:   5% (1/18)Writing objects:  11% (2/18)Writing objects:  16% (3/18)Writing objects:  22% (4/18)Writing objects:  27% (5/18)Writing objects:  33% (6/18)Writing objects:  38% (7/18)Writing objects:  44% (8/18)Writing objects:  50% (9/18)Writing objects:  55% (10/18)Writing objects:  61% (11/18)Writing objects:  66% (12/18)Writing objects:  72% (13/18)Writing objects:  77% (14/18)Writing objects:  83% (15/18)Writing objects:  88% (16/18)Writing objects:  94% (17/18)Writing objects: 100% (18/18)Writing objects: 100% (18/18), 7.76 KiB | 1.29 MiB/s, done.
+Total 18 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/9)[Kremote: Resolving deltas:  11% (1/9)[Kremote: Resolving deltas:  22% (2/9)[Kremote: Resolving deltas:  33% (3/9)[Kremote: Resolving deltas:  44% (4/9)[Kremote: Resolving deltas:  55% (5/9)[Kremote: Resolving deltas:  66% (6/9)[Kremote: Resolving deltas:  77% (7/9)[Kremote: Resolving deltas:  88% (8/9)[Kremote: Resolving deltas: 100% (9/9)[Kremote: Resolving deltas: 100% (9/9), completed with 9 local objects.[K
+To github.com:Goncharenya/project_gulp.git
+   19befe7..6c21a8c  main -> main
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 11:23:51P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hgit push[8Dпше згыр[8Dgit commit -m"верстка"[18Dadd .             [13D[9Dgulp     git commit -m"gulp"[19Dgulp               [15D[?1l>[?2004l
+[[90m21:35:43[39m] Using gulpfile [35m~/Documents/project/project-gulp/gulpfile.js[39m
+[[90m21:35:43[39m] Starting '[36mdefault[39m'...
+[[90m21:35:43[39m] Starting '[36mstyles[39m'...
+[[90m21:35:43[39m] Starting '[36mimages[39m'...
+[[90m21:35:43[39m] Starting '[36mscript[39m'...
+[[90m21:35:43[39m] Starting '[36mwatching[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+ [90m--------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.0.177:3000[39m
+ [90m--------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://192.168.0.177:3001[39m
+ [90m--------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mapp/[39m
+[[34mBrowsersync[39m] [36m1 file changed ([35mmain.min.js[39m)[39m
+[[90m21:35:44[39m] Finished '[36mscript[39m' after [35m1.38 s[39m
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m21:35:45[39m] Finished '[36mstyles[39m' after [35m1.86 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 3 events)[39m
+[[90m21:35:45[39m] gulp-imagemin: Minified 1 image[90m (saved 458 B - 41.3%)[39m
+[[90m21:35:45[39m] Finished '[36mimages[39m' after [35m2.39 s[39m
+[[90m21:37:30[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m21:37:31[39m] Finished '[36mstyles[39m' after [35m324 ms[39m
+[[90m21:38:04[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m21:38:04[39m] Finished '[36mstyles[39m' after [35m204 ms[39m
+^[[A^[[A^[[B^C
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 09:38:29P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hgulpgit push     g  ggulp sprite[?1l>[?2004l
+[[90m21:38:53[39m] Using gulpfile [35m~/Documents/project/project-gulp/gulpfile.js[39m
+[[90m21:38:53[39m] Starting '[36msprite[39m'...
+[[90m21:38:53[39m] Finished '[36msprite[39m' after [35m262 ms[39m
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 09:38:53P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hgulp sprite      [?1l>[?2004l
+[[90m21:42:28[39m] Using gulpfile [35m~/Documents/project/project-gulp/gulpfile.js[39m
+[[90m21:42:28[39m] Starting '[36mdefault[39m'...
+[[90m21:42:28[39m] Starting '[36mstyles[39m'...
+[[90m21:42:28[39m] Starting '[36mimages[39m'...
+[[90m21:42:28[39m] Starting '[36mscript[39m'...
+[[90m21:42:28[39m] Starting '[36mwatching[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+ [90m--------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.0.177:3000[39m
+ [90m--------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://192.168.0.177:3001[39m
+ [90m--------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mapp/[39m
+[[34mBrowsersync[39m] [36m1 file changed ([35mmain.min.js[39m)[39m
+[[90m21:42:30[39m] Finished '[36mscript[39m' after [35m1.42 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m21:42:30[39m] Finished '[36mstyles[39m' after [35m1.93 s[39m
+[[90m21:42:30[39m] gulp-imagemin: Minified 0 images
+[[90m21:42:30[39m] Finished '[36mimages[39m' after [35m2 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m

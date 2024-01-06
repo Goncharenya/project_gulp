@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 
@@ -20,7 +21,39 @@
 
 .subscribe__name {
     text-transform: uppercase;
+
     p:first-child {
         font-size: 30px;
+    }
+}
+
+.subscribe-block {
+    background: url("../img/subscribe.jpg") no-repeat bottom/cover;
+}
+
+@media (max-width: 968px) {
+    .subscribe {
+        flex-direction: column;
+
+        .subscribe__info {
+            margin-top: 40px;
+
+            .user__comment {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .subscribe__form {
+        margin-bottom: 140px;
+
+    }
+    .subscribe__name {
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .form__block .form_email
+    {
+        width: 150px;
     }
 }
