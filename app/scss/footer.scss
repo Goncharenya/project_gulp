@@ -1,0 +1,16 @@
+@import "var";
+
+.footer {
+    background: $darkGrey;
+    color: $white;
+
+    .footer__block {
+        display: flex;
+        justify-content: space-between;
+    }
+    .social-list {
+        display: flex;
+        list-style: none;
+
+    }
+}

@@ -11,26 +11,20 @@
 @import "feature";
 @import "favorites";
 @import "subscribe";
-
-
-
-.user-icon {
-    margin-right: 40px;
-}
+@import "footer";
+@import "form";
 
 
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-width: 100%;
+    width: 100%;
 }
 
 a {
     text-decoration: none;
 }
-
-
 
 .list {
     list-style: none;
@@ -51,45 +45,6 @@ a {
 }
 
 
-
-
-.form__block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    input {
-        display: block;
-        padding: 15px 30px;
-        background: $lightGrey-input;
-        border: 0;
-    }
-    .form_email {
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-    }
-    .form_send {
-        background: $pink;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-}
-
-.footer {
-    background: $darkGrey;
-    color: $white;
-
-    .footer__block {
-        display: flex;
-        justify-content: space-between;
-    }
-    .social-list {
-        display: flex;
-        list-style: none;
-
-    }
-}
-
 .social-list__item {
     width: 32px;
     height: 32px;
@@ -98,4 +53,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover{
+        background: $pink;
+    }
 }

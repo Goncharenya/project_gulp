@@ -2954,3 +2954,333 @@ Details:
 [[90m10:50:07[39m] Starting '[36mstyles[39m'...
 [[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
 [[90m10:50:07[39m] Finished '[36mstyles[39m' after [35m160 ms[39m
+[[90m10:51:07[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:51:07[39m] Finished '[36mstyles[39m' after [35m122 ms[39m
+^C
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 10:51:12P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hggit add .[?1l>[?2004l
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 10:51:22P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hggit commit -m""c","" " g"u"l"p"[?1l>[?2004l
+[main 19befe7] gulp
+ 179 files changed, 4023 insertions(+), 440 deletions(-)
+ create mode 100644 .DS_Store
+ create mode 100644 .gitignore
+ create mode 100644 .idea/jsLibraryMappings.xml
+ create mode 100644 app/.DS_Store
+ create mode 100644 app/css/style.min.css
+ create mode 100644 app/css/style.min.css.map
+ create mode 100644 app/img/.DS_Store
+ create mode 100644 app/img/1.svg
+ create mode 100644 app/img/Intersect.avif
+ create mode 100644 app/img/Intersect.png
+ create mode 100644 app/img/Intersect.webp
+ create mode 100644 app/img/advantages-img.svg
+ create mode 100644 app/img/cart.svg
+ create mode 100644 app/img/corona.svg
+ create mode 100644 app/img/dist/1.svg
+ create mode 100644 app/img/dist/Intersect.avif
+ create mode 100644 app/img/dist/Intersect.png
+ create mode 100644 app/img/dist/Intersect.webp
+ create mode 100644 app/img/dist/advantages-img.svg
+ create mode 100644 app/img/dist/cart.svg
+ create mode 100644 app/img/dist/corona.svg
+ create mode 100644 app/img/dist/facebook-f-brands (3) 1.svg
+ create mode 100644 app/img/dist/gear.svg
+ create mode 100644 app/img/dist/instagram-brands 1 (1).svg
+ create mode 100644 app/img/dist/instagram-brands 1.svg
+ create mode 100644 app/img/dist/logo.avif
+ create mode 100644 app/img/dist/logo.png
+ create mode 100644 app/img/dist/logo.svg
+ create mode 100644 app/img/dist/logo.webp
+ create mode 100644 app/img/dist/logo_4.svg
+ create mode 100644 app/img/dist/menu.svg
+ create mode 100644 app/img/dist/menu_burger.svg
+ create mode 100644 app/img/dist/pinterest-p-brands 1.svg
+ create mode 100644 app/img/dist/product1.avif
+ create mode 100644 app/img/dist/product1.jpg
+ create mode 100644 app/img/dist/product1.webp
+ create mode 100644 app/img/dist/product2.avif
+ create mode 100644 app/img/dist/product2.jpg
+ create mode 100644 app/img/dist/product2.webp
+ create mode 100644 app/img/dist/product3.avif
+ create mode 100644 app/img/dist/product3.jpg
+ create mode 100644 app/img/dist/product3.webp
+ create mode 100644 app/img/dist/product4.avif
+ create mode 100644 app/img/dist/product4.jpg
+ create mode 100644 app/img/dist/product4.webp
+ create mode 100644 app/img/dist/product5.avif
+ create mode 100644 app/img/dist/product5.jpg
+ create mode 100644 app/img/dist/product5.webp
+ create mode 100644 app/img/dist/product6.avif
+ create mode 100644 app/img/dist/product6.jpg
+ create mode 100644 app/img/dist/product6.webp
+ create mode 100644 app/img/dist/promo.avif
+ create mode 100644 app/img/dist/promo.png
+ create mode 100644 app/img/dist/promo.webp
+ create mode 100644 app/img/dist/reg.svg
+ create mode 100644 app/img/dist/search.svg
+ create mode 100644 app/img/dist/si1.avif
+ create mode 100644 app/img/dist/si1.jpg
+ create mode 100644 app/img/dist/si1.webp
+ create mode 100644 app/img/dist/si2.avif
+ create mode 100644 app/img/dist/si2.jpg
+ create mode 100644 app/img/dist/si2.webp
+ create mode 100644 app/img/dist/si3.avif
+ create mode 100644 app/img/dist/si3.jpg
+ create mode 100644 app/img/dist/si3.webp
+ create mode 100644 app/img/dist/sibig.avif
+ create mode 100644 app/img/dist/sibig.jpg
+ create mode 100644 app/img/dist/sibig.webp
+ create mode 100644 app/img/dist/slider.avif
+ create mode 100644 app/img/dist/slider.png
+ create mode 100644 app/img/dist/slider.webp
+ create mode 100644 app/img/dist/sprite.svg
+ create mode 100644 app/img/dist/subscribe.avif
+ create mode 100644 app/img/dist/subscribe.jpg
+ create mode 100644 app/img/dist/subscribe.webp
+ create mode 100644 app/img/facebook-f-brands (3) 1.svg
+ create mode 100644 app/img/gear.svg
+ create mode 100644 app/img/instagram-brands 1 (1).svg
+ create mode 100644 app/img/instagram-brands 1.svg
+ create mode 100644 app/img/logo.avif
+ create mode 100644 app/img/logo.png
+ create mode 100644 app/img/logo.svg
+ create mode 100644 app/img/logo.webp
+ create mode 100644 app/img/logo_4.svg
+ create mode 100644 app/img/menu.svg
+ create mode 100644 app/img/menu_burger.svg
+ create mode 100644 app/img/pinterest-p-brands 1.svg
+ create mode 100644 app/img/product1.avif
+ create mode 100644 app/img/product1.jpg
+ create mode 100644 app/img/product1.webp
+ create mode 100644 app/img/product2.avif
+ create mode 100644 app/img/product2.jpg
+ create mode 100644 app/img/product2.webp
+ create mode 100644 app/img/product3.avif
+ create mode 100644 app/img/product3.jpg
+ create mode 100644 app/img/product3.webp
+ create mode 100644 app/img/product4.avif
+ create mode 100644 app/img/product4.jpg
+ create mode 100644 app/img/product4.webp
+ create mode 100644 app/img/product5.avif
+ create mode 100644 app/img/product5.jpg
+ create mode 100644 app/img/product5.webp
+ create mode 100644 app/img/product6.avif
+ create mode 100644 app/img/product6.jpg
+ create mode 100644 app/img/product6.webp
+ create mode 100644 app/img/promo.avif
+ create mode 100644 app/img/promo.png
+ create mode 100644 app/img/promo.webp
+ create mode 100644 app/img/reg.svg
+ create mode 100644 app/img/search.svg
+ create mode 100644 app/img/si1.avif
+ create mode 100644 app/img/si1.jpg
+ create mode 100644 app/img/si1.webp
+ create mode 100644 app/img/si2.avif
+ create mode 100644 app/img/si2.jpg
+ create mode 100644 app/img/si2.webp
+ create mode 100644 app/img/si3.avif
+ create mode 100644 app/img/si3.jpg
+ create mode 100644 app/img/si3.webp
+ create mode 100644 app/img/sibig.avif
+ create mode 100644 app/img/sibig.jpg
+ create mode 100644 app/img/sibig.webp
+ create mode 100644 app/img/slider.avif
+ create mode 100644 app/img/slider.png
+ create mode 100644 app/img/slider.webp
+ create mode 100644 app/img/src/1.svg
+ create mode 100644 app/img/src/Intersect.png
+ create mode 100644 app/img/src/advantages-img.svg
+ create mode 100644 app/img/src/cart.svg
+ create mode 100644 app/img/src/corona.svg
+ create mode 100644 app/img/src/facebook-f-brands (3) 1.svg
+ create mode 100644 app/img/src/gear.svg
+ create mode 100644 app/img/src/instagram-brands 1 (1).svg
+ create mode 100644 app/img/src/instagram-brands 1.svg
+ create mode 100644 app/img/src/logo.png
+ create mode 100644 app/img/src/logo.svg
+ create mode 100644 app/img/src/logo_4.svg
+ create mode 100644 app/img/src/menu.svg
+ create mode 100644 app/img/src/menu_burger.svg
+ create mode 100644 app/img/src/pinterest-p-brands 1.svg
+ create mode 100644 app/img/src/plus.svg
+ create mode 100644 app/img/src/product1.jpg
+ create mode 100644 app/img/src/product2.jpg
+ create mode 100644 app/img/src/product3.jpg
+ create mode 100644 app/img/src/product4.jpg
+ create mode 100644 app/img/src/product5.jpg
+ create mode 100644 app/img/src/product6.jpg
+ create mode 100644 app/img/src/promo.png
+ create mode 100644 app/img/src/reg.svg
+ create mode 100644 app/img/src/search.svg
+ create mode 100644 app/img/src/si1.jpg
+ create mode 100644 app/img/src/si2.jpg
+ create mode 100644 app/img/src/si3.jpg
+ create mode 100644 app/img/src/sibig.jpg
+ create mode 100644 app/img/src/slider.png
+ create mode 100644 app/img/src/subscribe.jpg
+ create mode 100644 app/img/subscribe.avif
+ create mode 100644 app/img/subscribe.jpg
+ create mode 100644 app/img/subscribe.webp
+ rename index.html => app/index.html (61%)
+ create mode 100644 app/js/main.js
+ create mode 100644 app/js/main.min.js
+ create mode 100644 app/scss/burger-menu.scss
+ create mode 100644 app/scss/favorites.scss
+ create mode 100644 app/scss/feature.scss
+ create mode 100644 app/scss/header.scss
+ create mode 100644 app/scss/product.scss
+ create mode 100644 app/scss/promo.scss
+ create mode 100644 app/scss/search.scss
+ create mode 100644 app/scss/style.scss
+ create mode 100644 app/scss/subscribe.scss
+ create mode 100644 app/scss/title.scss
+ create mode 100644 app/scss/top.scss
+ create mode 100644 app/scss/var.scss
+ create mode 100644 app/scss/wrap.scss
+ create mode 100644 gulpfile.js
+ create mode 100644 package.json
+ delete mode 100644 style.scss
+ create mode 100644 typescript
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 10:51:43P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hggit push[?1l>[?2004l
+Enumerating objects: 126, done.
+Counting objects:   0% (1/126)Counting objects:   1% (2/126)Counting objects:   2% (3/126)Counting objects:   3% (4/126)Counting objects:   4% (6/126)Counting objects:   5% (7/126)Counting objects:   6% (8/126)Counting objects:   7% (9/126)Counting objects:   8% (11/126)Counting objects:   9% (12/126)Counting objects:  10% (13/126)Counting objects:  11% (14/126)Counting objects:  12% (16/126)Counting objects:  13% (17/126)Counting objects:  14% (18/126)Counting objects:  15% (19/126)Counting objects:  16% (21/126)Counting objects:  17% (22/126)Counting objects:  18% (23/126)Counting objects:  19% (24/126)Counting objects:  20% (26/126)Counting objects:  21% (27/126)Counting objects:  22% (28/126)Counting objects:  23% (29/126)Counting objects:  24% (31/126)Counting objects:  25% (32/126)Counting objects:  26% (33/126)Counting objects:  27% (35/126)Counting objects:  28% (36/126)Counting objects:  29% (37/126)Counting objects:  30% (38/126)Counting objects:  31% (40/126)Counting objects:  32% (41/126)Counting objects:  33% (42/126)Counting objects:  34% (43/126)Counting objects:  35% (45/126)Counting objects:  36% (46/126)Counting objects:  37% (47/126)Counting objects:  38% (48/126)Counting objects:  39% (50/126)Counting objects:  40% (51/126)Counting objects:  41% (52/126)Counting objects:  42% (53/126)Counting objects:  43% (55/126)Counting objects:  44% (56/126)Counting objects:  45% (57/126)Counting objects:  46% (58/126)Counting objects:  47% (60/126)Counting objects:  48% (61/126)Counting objects:  49% (62/126)Counting objects:  50% (63/126)Counting objects:  51% (65/126)Counting objects:  52% (66/126)Counting objects:  53% (67/126)Counting objects:  54% (69/126)Counting objects:  55% (70/126)Counting objects:  56% (71/126)Counting objects:  57% (72/126)Counting objects:  58% (74/126)Counting objects:  59% (75/126)Counting objects:  60% (76/126)Counting objects:  61% (77/126)Counting objects:  62% (79/126)Counting objects:  63% (80/126)Counting objects:  64% (81/126)Counting objects:  65% (82/126)Counting objects:  66% (84/126)Counting objects:  67% (85/126)Counting objects:  68% (86/126)Counting objects:  69% (87/126)Counting objects:  70% (89/126)Counting objects:  71% (90/126)Counting objects:  72% (91/126)Counting objects:  73% (92/126)Counting objects:  74% (94/126)Counting objects:  75% (95/126)Counting objects:  76% (96/126)Counting objects:  77% (98/126)Counting objects:  78% (99/126)Counting objects:  79% (100/126)Counting objects:  80% (101/126)Counting objects:  81% (103/126)Counting objects:  82% (104/126)Counting objects:  83% (105/126)Counting objects:  84% (106/126)Counting objects:  85% (108/126)Counting objects:  86% (109/126)Counting objects:  87% (110/126)Counting objects:  88% (111/126)Counting objects:  89% (113/126)Counting objects:  90% (114/126)Counting objects:  91% (115/126)Counting objects:  92% (116/126)Counting objects:  93% (118/126)Counting objects:  94% (119/126)Counting objects:  95% (120/126)Counting objects:  96% (121/126)Counting objects:  97% (123/126)Counting objects:  98% (124/126)Counting objects:  99% (125/126)Counting objects: 100% (126/126)Counting objects: 100% (126/126), done.
+Delta compression using up to 8 threads
+Compressing objects:   0% (1/121)Compressing objects:   1% (2/121)Compressing objects:   2% (3/121)Compressing objects:   3% (4/121)Compressing objects:   4% (5/121)Compressing objects:   5% (7/121)Compressing objects:   6% (8/121)Compressing objects:   7% (9/121)Compressing objects:   8% (10/121)Compressing objects:   9% (11/121)Compressing objects:  10% (13/121)Compressing objects:  11% (14/121)Compressing objects:  12% (15/121)Compressing objects:  13% (16/121)Compressing objects:  14% (17/121)Compressing objects:  15% (19/121)Compressing objects:  16% (20/121)Compressing objects:  17% (21/121)Compressing objects:  18% (22/121)Compressing objects:  19% (23/121)Compressing objects:  20% (25/121)Compressing objects:  21% (26/121)Compressing objects:  22% (27/121)Compressing objects:  23% (28/121)Compressing objects:  24% (30/121)Compressing objects:  25% (31/121)Compressing objects:  26% (32/121)Compressing objects:  27% (33/121)Compressing objects:  28% (34/121)Compressing objects:  29% (36/121)Compressing objects:  30% (37/121)Compressing objects:  31% (38/121)Compressing objects:  32% (39/121)Compressing objects:  33% (40/121)Compressing objects:  34% (42/121)Compressing objects:  35% (43/121)Compressing objects:  36% (44/121)Compressing objects:  37% (45/121)Compressing objects:  38% (46/121)Compressing objects:  39% (48/121)Compressing objects:  40% (49/121)Compressing objects:  41% (50/121)Compressing objects:  42% (51/121)Compressing objects:  43% (53/121)Compressing objects:  44% (54/121)Compressing objects:  45% (55/121)Compressing objects:  46% (56/121)Compressing objects:  47% (57/121)Compressing objects:  48% (59/121)Compressing objects:  49% (60/121)Compressing objects:  50% (61/121)Compressing objects:  51% (62/121)Compressing objects:  52% (63/121)Compressing objects:  53% (65/121)Compressing objects:  54% (66/121)Compressing objects:  55% (67/121)Compressing objects:  56% (68/121)Compressing objects:  57% (69/121)Compressing objects:  58% (71/121)Compressing objects:  59% (72/121)Compressing objects:  60% (73/121)Compressing objects:  61% (74/121)Compressing objects:  62% (76/121)Compressing objects:  63% (77/121)Compressing objects:  64% (78/121)Compressing objects:  65% (79/121)Compressing objects:  66% (80/121)Compressing objects:  67% (82/121)Compressing objects:  68% (83/121)Compressing objects:  69% (84/121)Compressing objects:  70% (85/121)Compressing objects:  71% (86/121)Compressing objects:  72% (88/121)Compressing objects:  73% (89/121)Compressing objects:  74% (90/121)Compressing objects:  75% (91/121)Compressing objects:  76% (92/121)Compressing objects:  77% (94/121)Compressing objects:  78% (95/121)Compressing objects:  79% (96/121)Compressing objects:  80% (97/121)Compressing objects:  81% (99/121)Compressing objects:  82% (100/121)Compressing objects:  83% (101/121)Compressing objects:  84% (102/121)Compressing objects:  85% (103/121)Compressing objects:  86% (105/121)Compressing objects:  87% (106/121)Compressing objects:  88% (107/121)Compressing objects:  89% (108/121)Compressing objects:  90% (109/121)Compressing objects:  91% (111/121)Compressing objects:  92% (112/121)Compressing objects:  93% (113/121)Compressing objects:  94% (114/121)Compressing objects:  95% (115/121)Compressing objects:  96% (117/121)Compressing objects:  97% (118/121)Compressing objects:  98% (119/121)Compressing objects:  99% (120/121)Compressing objects: 100% (121/121)Compressing objects: 100% (121/121), done.
+Writing objects:   0% (1/124)Writing objects:   1% (2/124)Writing objects:   3% (4/124)Writing objects:   4% (5/124)Writing objects:   5% (7/124)Writing objects:   6% (8/124)Writing objects:   7% (9/124)Writing objects:   8% (10/124)Writing objects:  10% (13/124)Writing objects:  11% (14/124)Writing objects:  12% (16/124)Writing objects:  13% (17/124)Writing objects:  14% (18/124)Writing objects:  15% (19/124)Writing objects:  16% (20/124)Writing objects:  17% (22/124)Writing objects:  18% (23/124)Writing objects:  19% (24/124)Writing objects:  20% (25/124)Writing objects:  21% (27/124)Writing objects:  22% (28/124)Writing objects:  23% (29/124)Writing objects:  24% (30/124)Writing objects:  25% (31/124)Writing objects:  26% (33/124)Writing objects:  27% (34/124)Writing objects:  28% (35/124)Writing objects:  29% (36/124)Writing objects:  30% (38/124)Writing objects:  31% (39/124)Writing objects:  32% (40/124)Writing objects:  33% (41/124)Writing objects:  34% (43/124)Writing objects:  35% (44/124)Writing objects:  36% (45/124)Writing objects:  37% (46/124)Writing objects:  38% (48/124)Writing objects:  39% (49/124)Writing objects:  40% (50/124)Writing objects:  41% (51/124)Writing objects:  42% (53/124)Writing objects:  43% (54/124)Writing objects:  44% (55/124)Writing objects:  45% (56/124)Writing objects:  46% (58/124)Writing objects:  47% (59/124)Writing objects:  48% (60/124)Writing objects:  49% (61/124)Writing objects:  50% (62/124)Writing objects:  51% (64/124)Writing objects:  52% (65/124)Writing objects:  53% (66/124)Writing objects:  54% (67/124)Writing objects:  55% (69/124)Writing objects:  56% (70/124)Writing objects:  57% (71/124)Writing objects:  58% (72/124)Writing objects:  59% (74/124)Writing objects:  60% (75/124)Writing objects:  61% (76/124)Writing objects:  62% (77/124)Writing objects:  63% (79/124), 1.30 MiB | 2.11 MiB/sWriting objects:  64% (80/124), 1.30 MiB | 2.11 MiB/sWriting objects:  65% (81/124), 1.30 MiB | 2.11 MiB/sWriting objects:  66% (82/124), 1.30 MiB | 2.11 MiB/sWriting objects:  67% (84/124), 1.30 MiB | 2.11 MiB/sWriting objects:  68% (85/124), 1.30 MiB | 2.11 MiB/sWriting objects:  69% (86/124), 1.30 MiB | 2.11 MiB/sWriting objects:  70% (87/124), 1.30 MiB | 2.11 MiB/sWriting objects:  71% (89/124), 1.30 MiB | 2.11 MiB/sWriting objects:  72% (90/124), 1.30 MiB | 2.11 MiB/sWriting objects:  73% (91/124), 1.30 MiB | 2.11 MiB/sWriting objects:  74% (92/124), 1.30 MiB | 2.11 MiB/sWriting objects:  75% (93/124), 1.30 MiB | 2.11 MiB/sWriting objects:  76% (95/124), 1.30 MiB | 2.11 MiB/sWriting objects:  77% (96/124), 1.30 MiB | 2.11 MiB/sWriting objects:  78% (97/124), 1.30 MiB | 2.11 MiB/sWriting objects:  79% (98/124), 1.30 MiB | 2.11 MiB/sWriting objects:  80% (100/124), 1.30 MiB | 2.11 MiB/sWriting objects:  81% (101/124), 1.30 MiB | 2.11 MiB/sWriting objects:  82% (102/124), 1.30 MiB | 2.11 MiB/sWriting objects:  83% (103/124), 1.30 MiB | 2.11 MiB/sWriting objects:  84% (105/124), 1.30 MiB | 2.11 MiB/sWriting objects:  85% (106/124), 1.30 MiB | 2.11 MiB/sWriting objects:  86% (107/124), 1.30 MiB | 2.11 MiB/sWriting objects:  87% (108/124), 1.30 MiB | 2.11 MiB/sWriting objects:  88% (110/124), 1.30 MiB | 2.11 MiB/sWriting objects:  89% (111/124), 1.30 MiB | 2.11 MiB/sWriting objects:  90% (112/124), 1.30 MiB | 2.11 MiB/sWriting objects:  91% (113/124), 1.30 MiB | 2.11 MiB/sWriting objects:  92% (115/124), 1.30 MiB | 2.11 MiB/sWriting objects:  93% (116/124), 1.30 MiB | 2.11 MiB/sWriting objects:  94% (117/124), 1.30 MiB | 2.11 MiB/sWriting objects:  95% (118/124), 1.30 MiB | 2.11 MiB/sWriting objects:  96% (120/124), 1.30 MiB | 2.11 MiB/sWriting objects:  97% (121/124), 1.30 MiB | 2.11 MiB/sWriting objects:  98% (122/124), 1.30 MiB | 2.11 MiB/sWriting objects:  99% (123/124), 1.30 MiB | 2.11 MiB/sWriting objects: 100% (124/124), 1.30 MiB | 2.11 MiB/sWriting objects: 100% (124/124), 2.54 MiB | 2.79 MiB/s, done.
+Total 124 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/6)[Kremote: Resolving deltas:  16% (1/6)[Kremote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 1 local object.[K
+To github.com:Goncharenya/project_gulp.git
+   d00ffac..19befe7  main -> main
+[0m[27m[24m[J[35m[1m[35m[45m█▓▒░[37m[45m[1m[37m[45mrandombox@Mr-Space[0m[37m[45m[35m[40m█▓▒░[37m[40m[1m[37m[40m Sat Jan 06 10:52:21P 
+[35m[40m[1m[35m[40m~/Documents/project/project-gulp/[0m[35m[40m[49m[39m [K[?1h=[?2004hgit pushcommit -m"gulp"[15Dadd .          [10D[9Dgulp     [?1l>[?2004l
+[[90m10:53:21[39m] Using gulpfile [35m~/Documents/project/project-gulp/gulpfile.js[39m
+[[90m10:53:21[39m] Starting '[36mdefault[39m'...
+[[90m10:53:21[39m] Starting '[36mstyles[39m'...
+[[90m10:53:21[39m] Starting '[36mimages[39m'...
+[[90m10:53:21[39m] Starting '[36mscript[39m'...
+[[90m10:53:21[39m] Starting '[36mwatching[39m'...
+[[34mBrowsersync[39m] [1mAccess URLs:[22m
+ [90m--------------------------------------[39m
+       Local: [35mhttp://localhost:3000[39m
+    External: [35mhttp://192.168.0.177:3000[39m
+ [90m--------------------------------------[39m
+          UI: [35mhttp://localhost:3001[39m
+ UI External: [35mhttp://192.168.0.177:3001[39m
+ [90m--------------------------------------[39m
+[[34mBrowsersync[39m] Serving files from: [35mapp/[39m
+[[34mBrowsersync[39m] [36m1 file changed ([35mmain.min.js[39m)[39m
+[[90m10:53:22[39m] Finished '[36mscript[39m' after [35m1.62 s[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:53:23[39m] Finished '[36mstyles[39m' after [35m2.15 s[39m
+[[90m10:53:23[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:53:24[39m] Finished '[36mstyles[39m' after [35m228 ms[39m
+[[90m10:53:24[39m] gulp-imagemin: Minified 1 image[90m (saved 640 B - 68.2%)[39m
+[[90m10:53:24[39m] Finished '[36mimages[39m' after [35m2.74 s[39m
+[[90m10:53:28[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:53:28[39m] Finished '[36mstyles[39m' after [35m193 ms[39m
+[[90m10:54:11[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:54:11[39m] Finished '[36mstyles[39m' after [35m291 ms[39m
+[[90m10:54:28[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:54:28[39m] Finished '[36mstyles[39m' after [35m209 ms[39m
+[[90m10:55:01[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:55:01[39m] Finished '[36mstyles[39m' after [35m175 ms[39m
+[[90m10:55:43[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:55:43[39m] Finished '[36mstyles[39m' after [35m160 ms[39m
+[[90m10:56:27[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:56:27[39m] Finished '[36mstyles[39m' after [35m158 ms[39m
+[[90m10:57:34[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m10:57:34[39m] Finished '[36mstyles[39m' after [35m156 ms[39m
+[[90m11:01:06[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:01:06[39m] Finished '[36mstyles[39m' after [35m130 ms[39m
+[[90m11:01:23[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:01:23[39m] Finished '[36mstyles[39m' after [35m200 ms[39m
+[[90m11:01:56[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:01:56[39m] Finished '[36mstyles[39m' after [35m206 ms[39m
+[[90m11:02:39[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:02:39[39m] Finished '[36mstyles[39m' after [35m197 ms[39m
+[[90m11:04:11[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:04:11[39m] Finished '[36mstyles[39m' after [35m137 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers... (buffered 3 events)[39m
+[[90m11:04:21[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:04:21[39m] Finished '[36mstyles[39m' after [35m161 ms[39m
+[[90m11:05:50[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:05:50[39m] Finished '[36mstyles[39m' after [35m159 ms[39m
+[[90m11:06:22[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:06:22[39m] Finished '[36mstyles[39m' after [35m268 ms[39m
+[[90m11:15:22[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:15:22[39m] Finished '[36mstyles[39m' after [35m150 ms[39m
+[[90m11:16:06[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:16:06[39m] Finished '[36mstyles[39m' after [35m163 ms[39m
+[[90m11:16:16[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:16:16[39m] Finished '[36mstyles[39m' after [35m117 ms[39m
+[[90m11:17:12[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:17:12[39m] Finished '[36mstyles[39m' after [35m202 ms[39m
+[[90m11:17:54[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:17:54[39m] Finished '[36mstyles[39m' after [35m143 ms[39m
+[[90m11:18:12[39m] Starting '[36mstyles[39m'...
+[[90m11:18:13[39m] '[36mstyles[39m' [31merrored after[39m [35m44 ms[39m
+[[90m11:18:13[39m] [31mCssSyntaxError[39m in plugin "[36mgulp-autoprefixer[39m"
+Message:
+    /Users/randombox/Documents/project/project-gulp/app/scss/user.scss:9:7: Unknown word
+You tried to parse SCSS with the standard CSS parser; try again with the postcss-scss parser [90m  7 | [39m    text-align[33m:[39m center[33m;[39m
+ [90m  8 | [39m    width[33m:[39m 40%[33m;[39m
+[1m[31m>[39m[22m[90m  9 | [39m//    padding[33m:[39m 0 1rem[33m;[39m
+ [90m    | [39m      [1m[31m^[39m[22m
+ [90m 10 | [39m[33m}[39m
+Details:
+    reason: Unknown word
+    file: /Users/randombox/Documents/project/project-gulp/app/scss/user.scss
+    source: .user-icon {
+    margin-right: 40px;
+}
+
+.user {
+    margin-top: 95px;
+    text-align: center;
+    width: 40%;
+//    padding: 0 1rem;
+}
+    line: 9
+    column: 7
+    endLine: 9
+    endColumn: 14
+    input: [object Object]
+    fileName: /Users/randombox/Documents/project/project-gulp/app/scss/user.scss
+    domainEmitter: [object Object]
+    domainThrown: false
+
+[[90m11:18:16[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:18:16[39m] Finished '[36mstyles[39m' after [35m209 ms[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[34mBrowsersync[39m] [36mReloading Browsers...[39m
+[[90m11:22:30[39m] Starting '[36mstyles[39m'...
+[[34mBrowsersync[39m] [36m2 files changed ([35mstyle.min.css.map, style.min.css[39m)[39m
+[[90m11:22:31[39m] Finished '[36mstyles[39m' after [35m157 ms[39m

@@ -2,9 +2,25 @@
 .subscribe {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .subscribe__form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user__comment {
+    margin-bottom: 95px;
+
+}
+
+.subscribe__name {
+    text-transform: uppercase;
+    p:first-child {
+        font-size: 30px;
+    }
 }

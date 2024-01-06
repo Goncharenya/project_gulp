@@ -1,0 +1,26 @@
+@import "var";
+
+.form__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        display: block;
+        padding: 15px 30px;
+        background: $lightGrey-input;
+        border: 0;
+    }
+    .form_email {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 256px;
+    }
+    .form_send {
+        background: $pink;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        width: 100px;
+        color: #ffffff;
+    }
+}
