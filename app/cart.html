@@ -93,73 +93,77 @@
 <main class="cart wrap">
     <div class="cart__box">
         <div class="cart__item">
-            <div class="favorites">
-                <div class="favorites__block">
-                    <div class="favorites__item">
-                        <div class="favorites__picture">
-                            <img src="img/src/product4.jpg" alt="" width="360" height="420">
-                        </div>
-                        <div class="favorites__info">
-                            <h4 class="favorites__name product__name">
-                                MANGO PEOPLE T-SHIRT
-                            </h4>
-                            <div class="favorites__price">
-                                <span>Price:</span>
-                                <span>$300</span>
-                            </div>
-                            <div class="favorites__color">
-                                <span>Color:</span>
-                                <span>Red</span>
-                            </div>
-                            <div class="favorites__size">
-                                <span>Size:</span>
-                                <span>Xl</span>
-                            </div>
-                            <div class="favorites__quantity">
-                                <label for="quantity_1">Количество
-                                    <input id="quantity_1" type="number">
-                                </label>
-                            </div>
-                        </div>
+            <div class="favorites__block">
+                <div class="favorites__item">
+                    <div class="favorites__picture">
+                        <img src="img/src/product4.jpg" alt="" width="360" height="420">
                     </div>
-                    <div class="favorites__item">
-                        <div class="favorites__picture">
-                            <img src="img/src/product4.jpg" alt="" width="360" height="420">
+                    <div class="favorites__info">
+                        <h4 class="favorites__name product__name">
+                            MANGO PEOPLE T-SHIRT
+                        </h4>
+                        <div class="favorites__price">
+                            <span>Price:</span>
+                            <span>$300</span>
                         </div>
-                        <div class="favorites__info">
-                            <h4 class="favorites__name product__name">
-                                MANGO PEOPLE T-SHIRT
-                            </h4>
-                            <div class="favorites__price">
-                                <span>Price:</span>
-                                <span>$300</span>
-                            </div>
-                            <div class="favorites__color">
-                                <span>Color:</span>
-                                <span>Red</span>
-                            </div>
-                            <div class="favorites__size">
-                                <span>Size:</span>
-                                <span>Xl</span>
-                            </div>
-                            <div class="favorites__quantity">
-                                <label for="quantity">Количество
-                                    <input id="quantity" type="number">
-                                </label>
-                            </div>
+                        <div class="favorites__color">
+                            <span>Color:</span>
+                            <span>Red</span>
                         </div>
-
+                        <div class="favorites__size">
+                            <span>Size:</span>
+                            <span>Xl</span>
+                        </div>
+                        <div class="favorites__quantity">
+                            <label for="quantity_1">Количество
+                                <input id="quantity_1" type="number">
+                            </label>
+                        </div>
                     </div>
                 </div>
+                <div class="favorites__item">
+                    <div class="favorites__picture">
+                        <img src="img/src/product4.jpg" alt="" width="360" height="420">
+                    </div>
+                    <div class="favorites__info">
+                        <h4 class="favorites__name product__name">
+                            MANGO PEOPLE T-SHIRT
+                        </h4>
+                        <div class="favorites__price">
+                            <span>Price:</span>
+                            <span>$300</span>
+                        </div>
+                        <div class="favorites__color">
+                            <span>Color:</span>
+                            <span>Red</span>
+                        </div>
+                        <div class="favorites__size">
+                            <span>Size:</span>
+                            <span>Xl</span>
+                        </div>
+                        <div class="favorites__quantity">
+                            <label for="quantity">Количество
+                                <input id="quantity" type="number">
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cart__bnt-box">
+                <button class="cart__btn">CLEAR SHOPPING CART
+
+                </button>
+                <a href="catalog.html" class="cart__btn">CONTINUE SHOPPING</a>
             </div>
         </div>
         <div class="cart__item">
 
             <form class="form cart__form">
-                <h3 class="form__title">
-                    SHIPPING ADRESS
-                </h3>
                 <div class="form__address">
+                    <h3 class="form__title">
+                        SHIPPING ADRESS
+                    </h3>
 
                     <input id="country" type="text" placeholder="Bangladesh">
                     <label for="country"></label>
@@ -174,22 +178,54 @@
                 </div>
                 <div class="form__order">
                     <div class="order">
-                    <div class="sub-total">SUB TOTAL
-                        <span class="sub-total__value">
+                        <div class="sub-total">SUB TOTAL
+                            <span class="sub-total__value">
                                     $800
                          </span>
-                    </div>
-                    <div class="grand-total">GRAND TOTAL
-                        <span class="grand-total__value">
+                        </div>
+                        <div class="grand-total">GRAND TOTAL
+                            <span class="grand-total__value">
                             900$
                          </span>
-                    </div>
+                        </div>
                     </div>
                     <a href="#" class="btn form__order-btn">PROCEED TO CHECKOUT</a>
                 </div>
             </form>
         </div>
     </div>
+
+</main>
+
+<div class="subscribe-block">
+    <div class="subscribe wrap">
+        <div class="subscribe__info user">
+            <div class="user__photo">
+                <img class="user__pic" src="img/src/Intersect.png" alt="">
+            </div>
+            <div class="user__comment">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
+            </div>
+        </div>
+        <div class="subscribe__form">
+            <div class="subscribe__name">
+                <p>SUBSCRIBE</p>
+                <p>FOR OUR NEWLETTER AND PROMOTION</p>
+
+            </div>
+            <form id="subscribe" class="form">
+                <div class="form__block">
+                    <label for="your_email">
+                        <input type="text" id="your_email" class="form_email" placeholder="Enter your email">
+                    </label>
+                    <label for="send">
+                        <input type="submit" id="send" class="form_send" value="subscribe">
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 </main>
 
