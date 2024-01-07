@@ -32,19 +32,19 @@
 
 
     &:nth-child(1) {
-        background: url('../img/src/si1.jpg');
+        background: url('../img/src/si1.jpg') no-repeat;
     }
 
     &:nth-child(2) {
-        background: url('../img/src/si2.jpg');
+        background: url('../img/src/si2.jpg') no-repeat;
     }
 
     &:nth-child(3) {
-        background: url('../img/src/si3.jpg');
+        background: url('../img/src/si3.jpg') no-repeat;
     }
 
     &:nth-child(4) {
-        background: url('../img/src/sibig.jpg');
+        background: url('../img/src/sibig.jpg') no-repeat;
         height: 180px;
         margin-bottom: 96px;
     }

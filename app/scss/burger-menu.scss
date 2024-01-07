@@ -1,12 +1,16 @@
+@import "var";
+
 .burger-menu {
     position: absolute;
     right: 20%;
     top: 50%;
 }
+
 .burger-checkbox {
     position: absolute;
     visibility: hidden;
 }
+
 .burger {
     cursor: pointer;
     display: block;
@@ -17,6 +21,7 @@
     height: 26px;
     margin: 30px 40px;
 }
+
 .burger::before,
 .burger::after {
     content: '';
@@ -28,21 +33,25 @@
     border-radius: 10px;
     background: #E1E1E1;
 }
+
 .burger::before {
     top: 0;
     box-shadow: 0 11px 0 #E1E1E1;
     transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
 }
+
 .burger::after {
     bottom: 0;
     transition: bottom .3s .15s, transform .3s;
 }
+
 .burger-checkbox:checked + .burger::before {
     top: 11px;
     transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
     transition: box-shadow .15s, top .3s, transform .3s .15s;
 }
+
 .burger-checkbox:checked + .burger::after {
     bottom: 11px;
     transform: rotate(-45deg);
@@ -51,29 +60,41 @@
 
 .menu {
     top: 0;
-    right: -40px;
+    right: 0;
     position: absolute;
     display: grid;
     gap: 12px;
-    padding: 42px 0;
+    padding: 2rem 1rem;
     margin: 0;
-    background: orange;
+    background: $white;
     list-style-type: none;
     transform: translateY(-100%);
     transition: .3s;
     width: 200px;
 }
+
+.menu-sub {
+    list-style: none;
+}
+
+.menu-sub__link {
+    display: block;
+    padding: 5px 15px;
+    color: $grey;
+}
+
 .menu__item {
     display: block;
     padding: 8px;
-    color: white;
-    font-size: 18px;
-    text-align: center;
+    color: $pink;
     text-decoration: none;
+    text-transform: uppercase;
 }
+
 .menu__item:hover {
-    background: rgba(255,255,255,.2)
+    background: rgba(255, 255, 255, .2)
 }
+
 .burger-checkbox:checked ~ .menu {
     transform: translateY(75px);
 }

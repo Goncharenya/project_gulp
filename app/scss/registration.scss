@@ -1,0 +1,82 @@
+@import "var";
+
+.registration {
+    font-weight: 100;
+}
+
+
+.registration-page,
+.page-header {
+    height: 148px;
+    background: $lightPink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registration__title,
+.page-title {
+    color: $pink;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.registration__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.registration__item {
+    width: 50%;
+}
+
+@media (max-width: 500px) {
+    .registration__item {
+        width: 100%;
+    }
+}
+
+.registration-form {
+    margin-right: 2rem;
+
+    input[type='text'], [type='password'] {
+        border: 1px solid $lightGrey-input;
+        padding: 15px 10px;
+        width: 360px;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1280px) {
+    .registration-form {
+        input[type=text], [type='password'] {
+            width: 80%;
+        }
+    }
+}
+
+.registration-list__item {
+    display: block;
+    position: relative;
+    padding: 10px 0 10px 35px;
+
+    &:before {
+        position: absolute;
+        content: '';
+        background: url("../img/src/ok.svg") no-repeat;
+        width: 15px;
+        height: 15px;
+        top: 10px;
+        left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .registration__block {
+        flex-direction: column;
+    }
+}
