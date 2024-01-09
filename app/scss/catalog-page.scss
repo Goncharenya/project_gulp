@@ -1,0 +1,121 @@
+@import "var";
+
+.sort-title{
+    position: relative;
+    padding-right: 2rem;
+
+    &::after{
+        content: url("../img/src/arrow-sort.svg");
+        position: absolute;
+        top: -3px;
+        right: 15px;
+
+    }
+}
+.catalog-sort {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+@media (max-width: 768px) {
+    .catalog-sort {
+        justify-content: flex-end;
+    }
+}
+.filter__title,
+.filters__title,
+.sort-title::-webkit-details-marker {
+    display: none;
+}
+.filter__title, .filters__title, .sort-title {
+    display: block;
+}
+
+.filters__title {
+    text-transform: uppercase;
+    padding-right: 1rem;
+    &::after {
+        position: absolute;
+        content: url('../img/src/filter.svg');
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 530px) {
+    .filters__title {
+        color: transparent;
+        &::after {
+            content: '';
+            width: 50px;
+            height: 50px;
+            background-image: url('../img/src/filter.svg');
+            background-size: 85%;
+            background-repeat: no-repeat;
+            left: 0;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+}
+
+.filter__title {
+    padding: 10px;
+    border-bottom: 1px solid $lightGrey-input;
+    border-left: 5px solid $pink;
+}
+
+.filters-sort-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 70px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .filters-sort-box {
+        grid-template-columns: 1fr 4fr;
+    }
+}
+
+.filters-box {
+    position: relative;
+}
+
+.filters {
+    position: absolute;
+    z-index: 100;
+    background: $white;
+    margin-top: -22px;
+    padding: 1rem;
+
+    .filters__list {
+        list-style: none;
+    }
+    .filters__list-item {
+        padding: 5px 15px;
+        color: $lightGrey-text;
+    }
+}
+.filters[open] {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    color: $pink;
+    .filters__title {
+        padding-bottom: 1rem;
+    }
+}
+.sort-details {
+    position: relative;
+}
+.sort-details__box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    padding: 1rem;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    top: 25px;
+    left: -14px;
+    width: 55px;
+}
